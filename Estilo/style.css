@@ -1,0 +1,188 @@
+.fondo{
+    position: absolute;
+    width: 103vw;
+    height: 45vh;
+    top: -4vh;
+    left: -1.5vw;
+    border-radius: 9vw;
+}
+.sol{
+    position: absolute;
+    width: 23vw;
+    height: 15vh;
+    top: 12vh;
+    left:68vw;
+;
+}
+.buscar{
+    position: absolute;
+    width: 4vw;
+    height: 2vh;
+    top: 7vh;
+    left: 83vw;
+}
+.texto1{
+    position: absolute;
+    width: 45vw;
+    height: 7vh;
+    top: 4vh;
+    left: 5vw;
+    font-size: 2.5vh;
+    color: whitesmoke;
+}
+.texto2{
+    position: absolute;
+    width: 45vw;
+    height: 5vh;
+    top: 5vh;
+    left: 7vw;
+    font-size: 12vh;
+    color: whitesmoke;
+}
+.texto3{
+    position: absolute;
+    width: 45vw;
+    height: 5vh;
+    top: 24vh;
+    left: 23vw;
+    font-size: 2.2vh;
+    color: whitesmoke;
+}
+.texto4{
+    position: absolute;
+    width: 45vw;
+    height: 5vh;
+    top: 26vh;
+    left: 70vw;
+    font-size: 2.2vh;
+    color: whitesmoke;
+}
+.texto5{
+    position: absolute;
+    width: 45vw;
+    height: 5vh;
+    top: 35vh;
+    left: 5vw;
+    font-size: 2vh;
+    color: whitesmoke;
+}
+.texto6{
+    position: absolute;
+    width: 45vw;
+    height: 5vh;
+    top: 0vh;
+    left: 5vw;
+    font-size: 1.6vh;
+    color: whitesmoke;
+}
+.today{
+    position: absolute;
+    width: 30vw;
+    height: 5vh;
+    top: 43vh;
+    left: 3vw;
+    font-size: 1.6vh;
+    color: black;
+    text-align: center;
+    border-radius: 3.5vw;
+    border-color: #c18bd1;
+    background-color: #c18bd1;
+}
+.Tomorrow{
+    position: absolute;
+    width: 30vw;
+    height: 5vh;
+    top: 43vh;
+    left: 35vw;
+    font-size: 1.6vh;
+    color: black;
+    text-align: center;
+    border-radius: 3.5vw;
+    border-color: white;
+    background-color: white;
+}
+.Days{
+    position: absolute;
+    width: 30vw;
+    height: 5vh;
+    top: 43vh;
+    left: 67vw;
+    font-size: 1.6vh;
+    color: black;
+    text-align: center;
+    border-radius: 3.5vw;
+    border-color: white;
+    background-color: white;
+}
+.cuadro1{
+    position: absolute;
+    width: 45vw;
+    height: 7vh;
+    top: 50vh;
+    left: 3vw;
+    font-size: 1.6vh;
+    color: black;
+    text-align: center;
+    border-radius: 3.5vw;
+    background-color: rgb(214, 226, 243);
+}
+.cuadro2{
+    position: absolute;
+    width: 45vw;
+    height: 7vh;
+    top: 50vh;
+    left: 52vw;
+    font-size: 1.6vh;
+    color: black;
+    text-align: center;
+    border-radius: 3.5vw;
+    background-color: rgb(214, 226, 243);
+}
+.cuadro3{
+    position: absolute;
+    width: 45vw;
+    height: 7vh;
+    top: 58vh;
+    left: 3vw;
+    font-size: 1.6vh;
+    color: black;
+    text-align: center;
+    border-radius: 3.5vw;
+    background-color: rgb(214, 226, 243);
+}
+.cuadro4{
+    position: absolute;
+    width: 45vw;
+    height: 7vh;
+    top: 58vh;
+    left: 52vw;
+    font-size: 1.6vh;
+    color: black;
+    text-align: center;
+    border-radius: 3.5vw;
+    background-color: rgb(214, 226, 243);
+}
+.cuadro5{
+    position: absolute;
+    width: 95vw;
+    height: 17vh;
+    top: 67vh;
+    left: 3vw;
+    font-size: 1.6vh;
+    color: black;
+    text-align: center;
+    border-radius: 3.5vw;
+    background-color: rgb(214, 226, 243);
+}
+.cuadro6{
+    position: absolute;
+    width: 95vw;
+    height: 14vh;
+    top: 85vh;
+    left: 3vw;
+    font-size: 1.6vh;
+    color: black;
+    text-align: center;
+    border-radius: 3.5vw;
+    background-color: rgb(214, 226, 243);
+}
