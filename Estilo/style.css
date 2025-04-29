@@ -186,3 +186,37 @@
     border-radius: 3.5vw;
     background-color: rgb(214, 226, 243);
 }
+#temperatura{
+ position: absolute;
+ left: 8vw;
+top: 20vh;
+font-size:18vw;
+width: 45vw;
+height: 7vh;
+color: white;
+}
+#pais{
+    position: absolute;
+    left: 28vw;
+    top: 3vh;
+    color: white;
+}
+#ciudad{
+    position: absolute;
+    left: 8vw;
+    top: 3vh;
+    color: white;
+}
+#hora{
+    position: absolute;
+    left: 8vw;
+    top: 0vh;
+    color: white;
+}
+#estado{
+    position: absolute;
+    font-size: 12vw;
+    left: 8vw;
+    top: 10vh;
+    color: white;
+}

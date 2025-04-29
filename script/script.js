@@ -1,15 +1,24 @@
-fetch(' http://api.weatherapi.com/v1/.json?key=[40f040b5a8f44270ad2120233252804[]&q=Floridablanca&lang=es')
-    .then(response => response.json())
-    .then(data => console.log(data));
 
-function Interface() {
+const city = 'Floridablanca';
+const aqi = 'yes';
+const apikey = 'a5da6ef1a5814bbea7c162012240703';
+// ...
+const url = `http://api.weatherapi.com/v1/current.json?key=${apikey}&q=${city}&aqi=${aqi}`;
 
-    let name = document.getElementById("name").value;
-    let  region = document.getElementById("region").value;
-    let country = document.getElementById("country").value;
-    let lat = document.getElementById("lat").value;
-    let lon = document.getElementById("lon").value;
-
-}
-Interface()
-// hola much
+fetch(url)
+.then(response => {
+    if (!response.ok) {
+        throw new Error('Network response was not ok' + response.statusText);
+    }
+    return response.json();
+})
+.then(data => {
+    
+    document.getElementById('temperatura').textContent = data.current.temp_c + '°C';
+    document.getElementById('pais').textContent = data.location.name;
+    document.getElementById('ciudad').textContent = data.location.country + ',';
+    document.getElementById('hora').textContent = data.location.localtime;
+    document.getElementById('estado').srcContent = data.current.condition.icon;
+    
+});
+fetch(url)
